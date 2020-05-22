@@ -36,9 +36,7 @@ const Header = (props) => {
             Sign In
           </Link>
         )}
-        <Link to="/">
           <CartIcon />
-        </Link>
       </div>
       {hidden ? null : <CartDropdown />}
     </div>
